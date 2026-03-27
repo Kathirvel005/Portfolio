@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>KathirVel.T Portfolio</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
+scroll-behavior:smooth;
+}
+
+/* Header */
+
+header{
+background:#222;
+color:white;
+text-align:center;
+padding:40px;
+animation:fadein 2s;
+}
+
+header img{
+width:150px;
+height:150px;
+border-radius:50%;
+border:4px solid white;
+}
+
+nav{
+background:#444;
+text-align:center;
+padding:10px;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#00ffff;
+}
+
+/* Sections */
+
+section{
+padding:40px;
+animation:slideup 1s;
+}
+
+h2{
+color:#333;
+}
+
+/* Skills */
+
+ul{
+list-style:none;
+padding:0;
+}
+
+ul li{
+background:white;
+margin:8px;
+padding:10px;
+border-radius:6px;
+}
+
+/* Projects */
+
+.project{
+background:white;
+padding:20px;
+margin:20px 0;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+transition:transform 0.3s;
+}
+
+.project:hover{
+transform:scale(1.05);
+}
+
+.project img{
+width:100%;
+max-width:400px;
+border-radius:10px;
+}
+
+/* Buttons */
+
+.btn{
+display:inline-block;
+padding:10px 20px;
+background:#007bff;
+color:white;
+text-decoration:none;
+border-radius:5px;
+margin-top:10px;
+}
+
+.btn:hover{
+background:#0056b3;
+}
+
+/* Footer */
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+/* Animations */
+
+@keyframes fadein{
+from{opacity:0;}
+to{opacity:1;}
+}
+
+@keyframes slideup{
+from{transform:translateY(30px);opacity:0;}
+to{transform:translateY(0);opacity:1;}
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<img src="profile.png" alt="Profile Photo">
+
+<h1>Kathirvel.T</h1>
+<p>AI Developer | Python Programmer | Robotics Enthusiast</p>
+
+<a href="Kathirvel_Resume.pdf.pdf" download class="btn">Download Resume</a>
+
+</header>
+
+<nav>
+
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+I am Kathirvel, a technology enthusiast with a strong interest in software development, artificial intelligence, and robotics. I enjoy developing projects such as AI chatbots, face recognition systems, and other innovative applications. I continuously learn new technologies and improve my programming skills in Python, Java, and web development. My aim is to build smart and impactful technological solutions.
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<ul>
+<li>Python</li>
+<li>Java</li>
+<li>Artificial Intelligence</li>
+<li>Machine Learning</li>
+<li>Robotics</li>
+<li>C/C++</li>
+<li>CAD Design</li>
+</ul>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="project">
+
+<h3>Face Recognition System</h3>
+
+<img src="project1.png" style="width:100px;height:100px;border-radius:50%;object-fit:cover;">
+
+<p>
+Python AI project that detects and recognizes human faces
+using machine learning.
+</p>
+
+<a href="https://github.com/Kathirvel005/Face-Recognition_system" class="btn">View on GitHub</a>
+
+</div>
+
+<div class="project">
+
+<h3>Chatbot Course Assist</h3>
+
+<img src="project2.jpg" style="width:100px;height:100px;border-radius:50%;object-fit:cover;">
+
+<p>
+AI chatbot that answers student doubt on course automatically
+using natural language processing.
+</p>
+
+<a href="https://github.com/Kathirvel005/Chatbot-Course-Assist" class="btn">View on GitHub</a>
+
+</div>
+
+<div class="project">
+
+<h3>Humanoid Robotics</h3>
+
+<img src="project3.jfif" style="width:100px;height:100px;border-radius:50%;object-fit:cover;">
+
+<p>
+Designed and developed a humanoid robot capable of performing basic human-like movements and interactions using integrated sensors, actuators, and intelligent control systems.
+</p>
+
+<a href="https://github.com/Kathirvel005/Humanoid-Robot" class="btn">View on GitHub</a>
+
+</div>
+
+<div class="project">
+
+<h3>Gesture Control Project</h3>
+
+<img src="project4.jfif" style="width:100px;height:100px;border-radius:50%;object-fit:cover;">
+
+<p>
+Developed a real-time gesture-controlled system using OpenCV and MediaPipe to enable touchless interaction with a computer through hand movements, inspired by Iron Man.
+</p>
+
+<a href="https://github.com/Kathirvel005/Gesture-Control-Project" class="btn">View on GitHub</a>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>Email: kathir24005@gmail.com</p>
+
+<p>
+GitHub:  
+<a href="https://github.com/Kathirvel005">github.com/Kathirvel005</a>
+</p>
+
+<p>
+LinkedIn:  
+<a href="https://www.linkedin.com/in/kathirvel2407" target="_blank">
+www.linkedin.com/in/kathirvel2407</a>
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 KathirVel.T Portfolio</p>
+
+</footer>
